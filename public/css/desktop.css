@@ -1,0 +1,61 @@
+@media (min-width: 769px) {
+
+    .burger-menu {
+        display: none;
+    }
+
+    .product_name {
+        display: block;
+    }
+
+    .articulo {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        padding-top: 20px;
+        margin-bottom: 20px;
+        width: 20%;
+    }
+
+    .contenedor-logo-busqueda {
+        justify-content: space-between;
+        width: 66%;
+    }
+
+    .contenedor-logo-busqueda-cuotas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        margin: 0 5px;
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+    
+    .footer-container {
+        display: flex;
+    }
+
+/*         LOGIN y REGISTER          */
+
+    main form {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    
+        .contenedor-input{
+            width: 100%;
+        }
+    
+        .contenedor-button{
+            width: 100%;
+        }
+}
