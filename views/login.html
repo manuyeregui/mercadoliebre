@@ -70,11 +70,11 @@
         <form action="/" method="get">
 
             <div class="contenedor-input">
-                <input type="text" name="username" id="username" placeholder="Nombre de usuario" class="campos-texto">
+                <input type="text" name="username" id="username" placeholder="Nombre de usuario" class="campos-texto" required>
             </div>
 
             <div class="contenedor-input">
-                <input type="password" name="username" id="username" placeholder="Contraseña" class="campos-texto">
+                <input type="password" name="username" id="username" placeholder="Contraseña" class="campos-texto" required>
             </div>
 
             <div class="contenedor-button">
@@ -87,22 +87,28 @@
 
     <footer>
     
-        <i class="fas fa-credit-card iconos-footer"></i>
-        <p><strong>Pagá con tarjeta o en efectivo</strong></p>
-        <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
-            puntos de pago. ¡Y siempre es seguro!</p> <br>
-        
-        <i class="fas fa-gift iconos-footer"></i>
-        <p><strong>Envío gratis desde $ 2.500</strong></p>
-        <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
-            productos. Es un beneficio de Mercado Puntos.</p> <br>
+        <div class="footer-container">
+            <div class="footer-items-container">
+                <i class="fas fa-credit-card iconos-footer"></i>
+                <p><strong>Pagá con tarjeta o en efectivo</strong></p>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro!</p> <br>
+            </div>    
+            <div class="footer-items-container">
+                <i class="fas fa-gift iconos-footer"></i>
+                <p><strong>Envío gratis desde $ 2.500</strong></p>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos.</p> <br>
+            </div>
+            <div class="footer-items-container">
+                <i class="fas fa-user-shield iconos-footer"></i>
+                <p><strong>Seguridad, de principio a fin</strong></p>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@.</p> <br>
+            </div>
+        </div>
 
-        <i class="fas fa-user-shield iconos-footer"></i>
-        <p><strong>Seguridad, de principio a fin</strong></p>
-        <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
-            porque estás siempre protegid@.</p> <br>
-
-        <p><strong>Copyright © 1999-2020 MercadoLiebre S.R.L.</strong></p>
+        <p class="copyright-footer"><strong>Copyright © 1999-2020 MercadoLiebre S.R.L.</strong></p>
 
     </footer>
 

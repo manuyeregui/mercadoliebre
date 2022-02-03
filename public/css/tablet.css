@@ -11,10 +11,18 @@
     }
 
     .articulo {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         padding-top: 20px;
         margin-bottom: 20px;
         width: 40%;
+        transition: all 100ms;
+    }
+
+    .articulo:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .product_name {
+        color: black;
     }
 
     .contenedor-logo-busqueda {

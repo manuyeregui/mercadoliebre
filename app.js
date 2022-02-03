@@ -7,7 +7,7 @@ app.use(express.static(publicPath));
 
 
 app.listen(3000, () => {
-    console.log('Servidor funcionando');
+    console.log('Servidor funcionando en el puerto 3000');
 });
 
 app.get('/', (req, res) => {

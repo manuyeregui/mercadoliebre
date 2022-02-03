@@ -124,6 +124,17 @@ footer {
 
 .iconos-footer {
     color: #3d3ad8;
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+    transition: all 100ms;
+}
+
+    .iconos-footer:hover {
+        color: #0022AA;
+    }
+
+.footer-items-container {
+    margin: 5px 10px 5px 10px;
 }
 
 .articulo {
@@ -131,6 +142,7 @@ footer {
     margin: 15px;
     background-color: white;
     border-radius: 5px;
+    cursor: pointer;
     /*height: 333px;
     overflow: hidden;
     transition: all 100ms;*/
@@ -148,13 +160,13 @@ footer {
 
 .truck-container{
     font-size: 16px;
-    padding: 20px;
+    padding: 15px;
     width: 30px;
     height: 30px;
     border: 2px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-    right: -80%;
+    right: -76%;
     top: 20px;
     display: flex;
     align-items: center;
@@ -194,11 +206,21 @@ footer {
 }
 
 .product_name {
-    display: none;
+    /*display: none;*/
+    color: white;
+    transition: all 100ms;
 }
+
+    .product_name:hover {
+        color: black;
+    }
 
 .articulos-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.copyright-footer {
+    padding: 0px 0px 10px 0px;
 }
